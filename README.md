@@ -72,4 +72,4 @@ FormSubmit is an external service, so form submissions are sent through its endp
 
 ## Current direction
 
-**Full-Stack Development → AI Engineering **
+**Full-Stack Development → AI Engineering**
