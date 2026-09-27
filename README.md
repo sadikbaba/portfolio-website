@@ -1,75 +1,60 @@
 # Abubakar Rabiu Baba Portfolio
 
-A responsive personal portfolio for Abubakar Rabiu Baba, also known as Sadik. It presents my full-stack development work, current move toward AI engineering, selected projects, resume, and contact details.
+A personal portfolio for Abubakar Rabiu Baba (Sadik), showcasing full-stack development work, selected projects, resume, and growing focus on AI engineering.
 
-## About the portfolio
+**Live site:** [sadikbaba.github.io/portfolio-website](https://sadikbaba.github.io/portfolio-website/)
 
-The site is built with plain HTML, CSS, and JavaScript. It has no package manager, build step, or framework dependency.
+**Stack:** HTML, CSS, JavaScript · hosted with GitHub Pages
 
-### Features
-
-- Responsive dark interface with a collapsible contact card on mobile
-- About, Resume, Portfolio, Blog, and Contact views
-- Portfolio cards with category filters
-- Resume timeline, education, technical skills, and career direction
-- Downloadable two-page CV PDF and a print-friendly resume source
-- Contact form that submits messages to `sadikbaba360@gmail.com`
-- GitHub, X, LinkedIn, and email links
+**License:** [MIT](LICENSE)
 
 ## Run locally
 
-You can open `index.html` directly in a browser. For a more reliable local preview, run a small static web server from the project folder:
+Open `index.html` in a browser, or serve the project locally:
 
 ```bash
 python3 -m http.server 8000
 ```
 
-Then open [http://localhost:8000](http://localhost:8000).
+Visit [http://localhost:8000](http://localhost:8000). No install or build step is needed. The contact form requires an internet connection.
 
-The site itself does not need a build or install step. The contact form needs an internet connection because it uses FormSubmit.
+## Edit the site
 
-## Edit the portfolio
+- Update profile, contact details, and project cards in `index.html`.
+- Update resume content in `resume.html`.
+- Change site styles in `css/styles.css` and resume styles in `css/resume.css`.
+- Update navigation, project filtering, and form behavior in `js/script.js`.
 
-### Profile and contact details
+## Refresh the resume PDF
 
-Edit `index.html` to update the profile, education, social links, about text, and contact details. Social links appear in the sidebar and contact section.
+Edit `resume.html`, open it in a browser, and use **Print / Save as PDF**. Save the exported file to `assets/Abubakar-Baba-CV.pdf`; the portfolio links to that file.
 
-### Projects and filters
+## Search and link preview files
 
-Project cards are in `index.html`. Each card has a `data-category` value. Keep it set to `web`, `app`, or `api` so the category filters continue to work. Update each project's title, summary, category, and GitHub link together.
+- `robots.txt` and `sitemap.xml` support search engine crawling and indexing.
+- `google8d8c70298a2ce5ea.html` is the Google site verification file.
+- `assets/og-image.png` is used for social link previews.
 
-### Styling and behavior
-
-- `css/styles.css` contains the colors, layout, responsive rules, cards, and controls
-- `js/script.js` handles section navigation, the mobile contact toggle, project filters, and contact form submission
-
-## Update the resume PDF
-
-`resume.html` is the editable source for the printable resume. Update its text and links, open it in a browser, then choose **Print / Save as PDF** and save the result as `assets/Abubakar-Baba-CV.pdf`.
-
-The Resume section links to that PDF. Replacing the PDF at the same path updates the file visitors download. The PDF is an exported copy, so edits to `resume.html` do not change the PDF automatically.
-
-## Contact form setup
-
-The form uses FormSubmit to forward visitor messages to `sadikbaba360@gmail.com`. The first form submission triggers a one-time email confirmation. Confirm that message in the inbox before expecting future submissions to be forwarded. The form also displays a direct email link if submission fails.
-
-FormSubmit is an external service, so form submissions are sent through its endpoint before they reach the inbox.
-
-## Project files
+## Project structure
 
 ```text
+.
 ├── assets/
 │   ├── Abubakar-Baba-CV.pdf
-│   └── header-pic.png
+│   ├── header-pic.png
+│   └── og-image.png
 ├── css/
+│   ├── resume.css
 │   └── styles.css
 ├── js/
 │   └── script.js
+├── google8d8c70298a2ce5ea.html
 ├── index.html
+├── LICENSE
+├── README.md
 ├── resume.html
-└── README.md
+├── robots.txt
+└── sitemap.xml
 ```
 
-## Current direction
-
-**Full-Stack Development and AI Engineering**
+**Current direction:** Full-stack development → AI engineering.
