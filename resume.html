@@ -3,246 +3,128 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="assets/header-pic.png" />
-    <title>Abubakar Rabiu Baba (Sadik) | Resume</title>
-
+    <meta
+      name="description"
+      content="Resume of Abubakar Rabiu Baba, junior backend developer focused on Python and Django."
+    />
+    <title>Abubakar Rabiu Baba | Junior Backend Developer</title>
     <link rel="stylesheet" href="css/resume.css" />
   </head>
   <body>
-    <div class="toolbar">
+    <nav class="toolbar" aria-label="Resume actions">
       <a href="index.html">Back to portfolio</a>
       <button type="button" onclick="window.print()">
         Print / Save as PDF
       </button>
-    </div>
+    </nav>
 
     <main class="sheet">
       <header class="resume-header">
-        <p class="eyebrow">Resume · Python · Django · Backend Development</p>
-        <h1>Abubakar Rabiu Baba <span>(Sadik)</span></h1>
-        <p class="headline">
-          Junior Backend Developer · Python · Django · Django REST Framework
+        <h1>Abubakar Rabiu Baba (Sadik)</h1>
+        <p class="job-title">
+          Junior Backend Developer | Python | Django | Django REST Framework
         </p>
-
-        <div class="contact">
+        <address class="contact">
           <span>Nigeria</span>
           <a href="mailto:sadikbaba360@gmail.com">sadikbaba360@gmail.com</a>
           <a href="https://github.com/sadikbaba">github.com/sadikbaba</a>
           <a href="https://www.linkedin.com/in/abubakar-baba-452346424/"
             >linkedin.com/in/abubakar-baba-452346424</a
           >
-        </div>
+          <a href="https://sadikbaba.github.io/portfolio-website/"
+            >sadikbaba.github.io/portfolio-website</a
+          >
+        </address>
       </header>
 
-      <div class="profile">
+      <section aria-labelledby="summary-title">
+        <h2 id="summary-title">Profile</h2>
         <p>
-          Backend-focused developer working mainly with Python, Django, and
-          Django REST Framework. I build REST APIs, authentication flows, and
-          database-backed applications, and I have hands-on experience deploying
-          Django on Linux with Gunicorn and Nginx. I am continuing to strengthen
-          my backend, database, testing, and deployment skills while gradually
-          building toward AI engineering.
+          Early-career backend developer focused on Python, Django, and Django
+          REST Framework. My hands-on practice includes CRUD APIs,
+          authentication and permission checks, and configuring Django with
+          Gunicorn and Nginx on Linux. I'm continuing to improve my database,
+          testing, and API security skills through small, practical exercises.
         </p>
-      </div>
-
-      <section class="section-grid">
-        <div>
-          <h2>Education</h2>
-          <div class="timeline">
-            <article class="timeline-item">
-              <span class="dot"></span>
-              <p class="timeline-label">Current</p>
-              <h3>Undergraduate Student</h3>
-              <p>Arab Open University, Cairo</p>
-            </article>
-          </div>
-        </div>
-
-        <div>
-          <h2>Project experience</h2>
-          <div class="timeline">
-            <article class="timeline-item">
-              <span class="dot"></span>
-              <p class="timeline-label">Hands-on</p>
-              <h3>Backend &amp; API Development</h3>
-              <p>
-                Built Django and Django REST Framework applications with REST
-                APIs, authentication, permissions, CRUD operations, and
-                database-backed features.
-              </p>
-            </article>
-
-            <article class="timeline-item">
-              <span class="dot"></span>
-              <p class="timeline-label">Hands-on</p>
-              <h3>Production Deployment</h3>
-              <p>
-                Deployed a Django application on Linux using Gunicorn and Nginx,
-                configured the environment manually, and troubleshot SELinux
-                issues during deployment.
-              </p>
-            </article>
-
-            <article class="timeline-item">
-              <span class="dot"></span>
-              <p class="timeline-label">In progress</p>
-              <h3>AI Engineering</h3>
-              <p>
-                Learning practical AI foundations and building toward LLM
-                applications, local models, RAG, agents, and developer-focused
-                AI tools.
-              </p>
-            </article>
-          </div>
-        </div>
       </section>
 
-      <section>
-        <h2>Technical skills</h2>
+      <section aria-labelledby="skills-title">
+        <h2 id="skills-title">Technical skills</h2>
+        <p><strong>Programming:</strong> Python, JavaScript, HTML, CSS</p>
+        <p>
+          <strong>Backend:</strong> Django, Django REST Framework, REST APIs,
+          CRUD operations
+        </p>
+        <p><strong>Databases:</strong> Django ORM, SQLite</p>
+        <p>
+          <strong>Authentication:</strong> Session and token authentication,
+          permissions, JWT fundamentals
+        </p>
+        <p>
+          <strong>Tools and deployment:</strong> Git, GitHub, Linux (Fedora),
+          Gunicorn, Nginx
+        </p>
+      </section>
 
-        <div class="skills">
-          <div class="skill">
-            <strong>Languages</strong>
-            <span>Python, JavaScript, HTML, CSS</span>
-          </div>
+      <section aria-labelledby="practice-title">
+        <h2 id="practice-title">Hands-on technical practice</h2>
 
-          <div class="skill">
-            <strong>Backend</strong>
-            <span>Django, Django REST Framework, REST APIs</span>
-          </div>
-
-          <div class="skill">
-            <strong>Databases</strong>
-            <span>PostgreSQL, SQLite, Django ORM</span>
-          </div>
-
-          <div class="skill">
-            <strong>Authentication &amp; security</strong>
-            <span>
-              Session authentication, token authentication, permissions, CSRF,
-              authorization, JWT fundamentals
-            </span>
-          </div>
-
-          <div class="skill">
-            <strong>Testing &amp; development</strong>
-            <span>
-              API testing, debugging, automated testing fundamentals, Git/GitHub
-            </span>
-          </div>
-
-          <div class="skill">
-            <strong>Deployment</strong>
-            <span
-              >Linux (Fedora), Gunicorn, Nginx, environment configuration</span
+        <article class="entry">
+          <div class="entry-heading">
+            <h3>Backend engineering exercises</h3>
+            <a href="https://github.com/sadikbaba/backend-engineering"
+              >GitHub repository</a
             >
           </div>
+          <ul>
+            <li>
+              Practiced writing CRUD API endpoints and working with HTTP
+              requests and responses in Django REST Framework.
+            </li>
+            <li>
+              Worked through authentication, API permissions, and Django ORM
+              queries, testing how the backend responds to different requests.
+            </li>
+          </ul>
+        </article>
 
-          <div class="skill">
-            <strong>Frontend</strong>
-            <span>JavaScript, DOM, responsive CSS, Vite, npm</span>
+        <article class="entry">
+          <h3>Django deployment on Linux</h3>
+          <ul>
+            <li>
+              Configured a Django application to run with Gunicorn and Nginx on
+              Linux.
+            </li>
+            <li>
+              Troubleshot environment configuration and SELinux issues during
+              deployment.
+            </li>
+          </ul>
+        </article>
+
+        <article class="entry">
+          <div class="entry-heading">
+            <h3>Python problem-solving practice</h3>
+            <a href="https://github.com/sadikbaba/Data-structure-and-Algorithm"
+              >GitHub repository</a
+            >
           </div>
-
-          <div class="skill">
-            <strong>Currently developing</strong>
-            <span> React, Docker, Redis, Celery, AI/LLM engineering </span>
-          </div>
-        </div>
-
-        <div class="stack">
-          <h3>Core stack</h3>
-          <p>
-            Python · Django · Django REST Framework · REST APIs · PostgreSQL ·
-            SQLite · Django ORM · Git/GitHub · Linux · Gunicorn · Nginx ·
-            JavaScript · Vite
-          </p>
-        </div>
+          <ul>
+            <li>
+              Practiced arrays, sets, linked lists, binary search, and other
+              data structures, comparing solutions using time and space
+              complexity.
+            </li>
+          </ul>
+        </article>
       </section>
 
-      <section>
-        <h2>Selected projects</h2>
-
-        <div class="projects">
-          <!-- <article class="project">
-            <h3>Django REST API Projects</h3>
-            <p>
-              Built APIs with Django REST Framework using authentication,
-              permissions, CRUD operations, search, filtering, pagination, and
-              author-based access control.
-            </p>
-          </article> -->
-
-          <article class="project">
-            <h3>
-              <a href="https://github.com/sadikbaba/backend-engineering"
-                >Backend Engineering</a
-              >
-            </h3>
-            <p>
-              Project-based backend engineering work with Python, Django, and
-              Django REST Framework. Current work covers REST API design,
-              session authentication, token authentication, CSRF/CORS handling,
-              and frontend-to-backend API integration.
-            </p>
-          </article>
-
-          <article class="project">
-            <h3>
-              <a
-                href="https://github.com/sadikbaba/Data-structure-and-Algorithm"
-                >Data Structures and Algorithms</a
-              >
-            </h3>
-            <p>
-              Structured Python practice focused on data structures, algorithms,
-              problem-solving, and time and space complexity.
-            </p>
-          </article>
-
-          <article class="project">
-            <h3>
-              <a href="https://github.com/sadikbaba/frontend-mastery"
-                >Frontend Mastery</a
-              >
-            </h3>
-            <p>
-              Structured frontend practice covering JavaScript, DOM, public
-              APIs, localStorage, Vite, and modern frontend tooling.
-            </p>
-          </article>
-
-          <article class="project">
-            <h3>
-              <a href="https://github.com/sadikbaba/full-stack-development"
-                >Full stack development</a
-              >
-            </h3>
-            <p>
-              Hands-on deployment engineering practice covering Linux services,
-              networking, ports, SSH, environment configuration, and production
-              infrastructure fundamentals.
-            </p>
-          </article>
-
-          <article class="project">
-            <h3>
-              <a href="https://github.com/sadikbaba/AI-development-foundation"
-                >AI development foundation</a
-              >
-            </h3>
-            <p>
-              AI foundations work covering intelligent agents, problem
-              formulation, state-space search, heuristics, BFS, DFS, and Greedy
-              search through small Python projects.
-            </p>
-          </article>
-        </div>
+      <section aria-labelledby="education-title">
+        <h2 id="education-title">Education</h2>
+        <h3>Business - Management Information Systems (MIS)</h3>
+        <p>Arab Open University, Cairo</p>
+        <p>Undergraduate · Currently enrolled</p>
       </section>
-
-      <div class="career">
-        <span>Career direction</span>
-        <strong>Backend Development · AI Engineering</strong>
-      </div>
     </main>
   </body>
 </html>
