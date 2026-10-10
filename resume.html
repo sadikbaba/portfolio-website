@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -10,6 +11,7 @@
     <title>Abubakar Rabiu Baba | Junior Backend Developer</title>
     <link rel="stylesheet" href="css/resume.css" />
   </head>
+
   <body>
     <nav class="toolbar" aria-label="Resume actions">
       <a href="index.html">Back to portfolio</a>
@@ -21,108 +23,190 @@
     <main class="sheet">
       <header class="resume-header">
         <h1>Abubakar Rabiu Baba (Sadik)</h1>
+
         <p class="job-title">
           Junior Backend Developer | Python | Django | Django REST Framework
         </p>
+
         <address class="contact">
           <span>Nigeria</span>
-          <a href="mailto:sadikbaba360@gmail.com">sadikbaba360@gmail.com</a>
-          <a href="https://github.com/sadikbaba">github.com/sadikbaba</a>
-          <a href="https://www.linkedin.com/in/abubakar-baba-452346424/"
-            >linkedin.com/in/abubakar-baba-452346424</a
-          >
-          <a href="https://sadikbaba.github.io/portfolio-website/"
-            >sadikbaba.github.io/portfolio-website</a
-          >
+
+          <a href="mailto:sadikbaba360@gmail.com">
+            sadikbaba360@gmail.com
+          </a>
+
+          <a href="https://github.com/sadikbaba">
+            github.com/sadikbaba
+          </a>
+
+          <a href="https://www.linkedin.com/in/abubakar-baba-452346424/">
+            linkedin.com/in/abubakar-baba-452346424
+          </a>
+
+          <a href="https://sadikbaba.github.io/portfolio-website/">
+            sadikbaba.github.io/portfolio-website
+          </a>
         </address>
       </header>
 
+      <!-- PROFILE -->
       <section aria-labelledby="summary-title">
         <h2 id="summary-title">Profile</h2>
+
         <p>
-          Early-career backend developer focused on Python, Django, and Django
-          REST Framework. My hands-on practice includes CRUD APIs,
-          authentication and permission checks, and configuring Django with
-          Gunicorn and Nginx on Linux. I'm continuing to improve my database,
-          testing, and API security skills through small, practical exercises.
+          I'm a junior backend developer working with Python, Django,
+          and Django REST Framework. My recent work includes a Notes
+          REST API with CRUD operations and API documentation, along
+          with session, token, and JWT authentication exercises.
+          I've also configured Django with Gunicorn and Nginx on Linux.
+          I'm continuing to build my skills in testing, databases,
+          and API security.
         </p>
       </section>
 
+      <!-- TECHNICAL SKILLS -->
       <section aria-labelledby="skills-title">
         <h2 id="skills-title">Technical skills</h2>
-        <p><strong>Programming:</strong> Python, JavaScript, HTML, CSS</p>
+
         <p>
-          <strong>Backend:</strong> Django, Django REST Framework, REST APIs,
-          CRUD operations
+          <strong>Programming:</strong>
+          Python, JavaScript, HTML, CSS
         </p>
-        <p><strong>Databases:</strong> Django ORM, SQLite</p>
+
         <p>
-          <strong>Authentication:</strong> Session and token authentication,
-          permissions, JWT fundamentals
+          <strong>Backend:</strong>
+          Django, Django REST Framework, REST APIs,
+          CRUD operations, OpenAPI/Swagger
         </p>
+
         <p>
-          <strong>Tools and deployment:</strong> Git, GitHub, Linux (Fedora),
-          Gunicorn, Nginx
+          <strong>Databases:</strong>
+          Django ORM, SQLite
+        </p>
+
+        <p>
+          <strong>Authentication:</strong>
+          Session authentication, token authentication,
+          JWT, access and refresh tokens, authenticated endpoints
+        </p>
+
+        <p>
+          <strong>Tools and deployment:</strong>
+          Git, GitHub, Linux (Fedora), Gunicorn, Nginx
         </p>
       </section>
 
-      <section aria-labelledby="practice-title">
-        <h2 id="practice-title">Hands-on technical practice</h2>
+      <!-- PROJECTS -->
+      <section aria-labelledby="projects-title">
+        <h2 id="projects-title">Backend Projects &amp; Practical Work</h2>
 
+        <!-- PHASE 1: API ENGINEERING -->
         <article class="entry">
           <div class="entry-heading">
-            <h3>Backend engineering exercises</h3>
-            <a href="https://github.com/sadikbaba/backend-engineering"
-              >GitHub repository</a
+            <h3>Notes REST API | Django, DRF</h3>
+
+            <a
+              href="https://github.com/sadikbaba/backend-engineering/tree/main/phase-01-api-engineering"
             >
+              GitHub repository
+            </a>
           </div>
+
           <ul>
             <li>
-              Practiced writing CRUD API endpoints and working with HTTP
-              requests and responses in Django REST Framework.
+              Built a Notes API supporting create, read, update,
+              and delete operations.
             </li>
+
             <li>
-              Worked through authentication, API permissions, and Django ORM
-              queries, testing how the backend responds to different requests.
+              Used Django models, serializers, viewsets, and routers
+              to handle requests and database operations.
+            </li>
+
+            <li>
+              Added interactive API documentation using
+              OpenAPI and Swagger.
             </li>
           </ul>
         </article>
 
+        <!-- PHASE 2: AUTHENTICATION -->
         <article class="entry">
-          <h3>Django deployment on Linux</h3>
+          <div class="entry-heading">
+            <h3>Backend Authentication | Django, DRF, JWT</h3>
+
+            <a
+              href="https://github.com/sadikbaba/backend-engineering/tree/main/phase-02-authentication"
+            >
+              GitHub repository
+            </a>
+          </div>
+
           <ul>
             <li>
-              Configured a Django application to run with Gunicorn and Nginx on
-              Linux.
+              Implemented session, token, and JWT authentication
+              using Django REST Framework.
             </li>
+
             <li>
-              Troubleshot environment configuration and SELinux issues during
-              deployment.
+              Built registration, login, logout, and authenticated
+              user endpoints.
+            </li>
+
+            <li>
+              Tested expired access tokens, token refresh,
+              and refresh-token blacklisting during logout.
             </li>
           </ul>
         </article>
 
+        <!-- LINUX DEPLOYMENT -->
         <article class="entry">
-          <div class="entry-heading">
-            <h3>Python problem-solving practice</h3>
-            <a href="https://github.com/sadikbaba/Data-structure-and-Algorithm"
-              >GitHub repository</a
-            >
-          </div>
+          <h3>Django Deployment on Linux</h3>
+
           <ul>
             <li>
-              Practiced arrays, sets, linked lists, binary search, and other
-              data structures, comparing solutions using time and space
-              complexity.
+              Configured and deployed a Django application using
+              Gunicorn and Nginx on Linux.
+            </li>
+
+            <li>
+              Worked through environment configuration and
+              SELinux issues during deployment.
+            </li>
+          </ul>
+        </article>
+
+        <!-- PYTHON PROBLEM SOLVING -->
+        <article class="entry">
+          <div class="entry-heading">
+            <h3>Python Problem-Solving Practice</h3>
+
+            <a
+              href="https://github.com/sadikbaba/Data-structure-and-Algorithm"
+            >
+              GitHub repository
+            </a>
+          </div>
+
+          <ul>
+            <li>
+              Practiced arrays, sets, linked lists, binary search,
+              and other data structures, comparing solutions
+              using time and space complexity.
             </li>
           </ul>
         </article>
       </section>
 
+      <!-- EDUCATION -->
       <section aria-labelledby="education-title">
         <h2 id="education-title">Education</h2>
+
         <h3>Business - Management Information Systems (MIS)</h3>
+
         <p>Arab Open University, Cairo</p>
+
         <p>Undergraduate · Currently enrolled</p>
       </section>
     </main>
